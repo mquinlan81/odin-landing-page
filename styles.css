@@ -1,0 +1,164 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+/* .roboto-<uniquifier> {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  /* border: 1px solid lightblue; */
+}
+
+header,
+footer {
+  background-color: #1f2937;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  max-width: 900px; /*combine */
+  margin: 0 auto; /*combine */
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  text-decoration: none;
+}
+.header-link {
+  margin-right: 15px;
+}
+
+.header-link,
+header p,
+footer p,
+button,
+.call-to-action p {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  gap: 35px;
+  padding: 60px 0;
+  max-width: 900px; /*combine */
+  margin: 0 auto; /*combine */
+}
+
+h1 {
+  font-size: 40px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.img-placeholder {
+  width: 800px;
+  height: 150px;
+  background-color: gray;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/* .container-1 h2 {
+  margin-bottom: 40px;
+} */
+
+.columns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.col-item {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.rounded-square {
+  border-radius: 8px;
+  border: 3px solid #3882f6;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+button {
+  background-color: #3882f6;
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-content {
+  max-width: 900px; /*combine */
+  margin: 0 auto; /*combine */
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 20px;
+}
+
+.quote-attribute {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  padding: 20px 20px;
+  border-radius: 8px;
+  max-width: 900px; /*combine */
+  margin: 0 auto; /*combine */
+}
+
+.call-to-action button {
+  border: #f9faf8 2px solid;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+}
